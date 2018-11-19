@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Palanquin|Secular+One');
+
+/*font-family: 'Palanquin', sans-serif;
+font-family: 'Secular One', sans-serif; */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Palanquin', sans-serif;
+}
+
+p {
+  font-family: 'Palanquin', sans-serif;
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  font-family: 'Secular One', sans-serif;
+}
+
+button {
+  border: none;
+}
+
+.btn {
+  color: white;
+  padding: 10px 25px;
+  font-family: 'Secular One', sans-serif;
+  background-color: #f6d365;
+  border: 1px solid #f6d365 !important;
+  border-radius: 5px;
+}
+
+.btn2 {
+  color: white;
+  padding: 10px 25px;
+  font-family: 'Secular One', sans-serif;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.flex-h{
+  display: flex;
+
+}
+.flex-h div{
+  margin-bottom: 100px;
+  display: flex;
+  flex:1;
+  height:50vh;
+  flex-direction: column;
+  padding:50px;
+}
+
+.img{
+  background-image: url(../images/socialblade.png);
+  height: 50vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+
+}
+
+header {
+  color: white;
+  padding: 50px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(120deg, #fda085 0%, #f6d365 100%);
+}
+
+#headerContent {
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80vh;
+  /* margin-top: 200px; */
+}
+
+#headerContent div {
+  padding: 200px;
+  width: 50%;
+  /* height: 5px; */
+}
+
+#phone {
+  background-image: url(../images/socialbladeHeader.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+nav ul {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+section {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  ;
+}
+
+#imageOne {
+  background-image: url(../images/three.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.gray {
+  background-color: #f7f1ed;
+  height 70vh;
+}
+
+.reviews {
+  background-image: linear-gradient(120deg, #fda085 0%, #f6d365 100%);
+}
+
+#reviews-container {
+  width: 60%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  /* justify-content: space-between; */
+}
+
+#reviews-container>div {
+  background-color: white;
+  width: 500px;
+  height: 200px;
+  border-radius: 10px;
+  border: 5px solid white;
+  margin-left: auto;
+  margin-right: auto;
+  padding:25px;
+}
